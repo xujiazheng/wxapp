@@ -1,0 +1,9 @@
+
+App({
+    globalData: {
+        token: '',
+    },
+    onLaunch() {
+        // ...
+    },
+});
