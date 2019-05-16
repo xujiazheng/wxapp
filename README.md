@@ -18,15 +18,15 @@
             + [less](#less)
     + [dist](#dist)
     + [bin](#bin)
-    + [test](#test)
+    + [test](#source_test)
 + [关于eslint](#关于eslint)
 + [关于pre-commit](#关于pre-commit)
 + [关于scripts](#关于scripts)
     + [dev](#dev)
     + [build](#build)
     + [eslint](#eslint)
-    + [test](#test)
-    + [test:coverage](#test:coverage)
+    + [test](#scripts_test)
+    + [test:coverage](#test_coverage)
     + [create](#create)
 + [注意事项](#注意事项)
 
@@ -89,7 +89,7 @@ git remote add origin '你的git仓库地址'
 
 存放一些需要的脚本
 
-### test
+### source_test
 
 存放测试用例，建议每一个功能性工具函数都写测试用例，例如utils目录下的函数
 
@@ -126,7 +126,7 @@ npm run build
 npm run eslint
 ```
 
-### test
+### scripts_test
 
 启动测试，跑所有测试用例
 
@@ -135,7 +135,7 @@ npm run eslint
 npm run test
 ```
 
-### test:coverage
+### test_coverage
 
 验证测试覆盖率
 
